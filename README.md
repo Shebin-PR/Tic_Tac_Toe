@@ -1,4 +1,4 @@
-#Tic_Tac_Toe
+# Tic Tac Toe
 
 
 ![Screenshot_1647573632](https://user-images.githubusercontent.com/89257683/158932194-7a3c37ad-5bb9-4069-81b3-e3388d66b7d7.png)
