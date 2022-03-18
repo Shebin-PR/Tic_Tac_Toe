@@ -213,8 +213,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  // filling the boxes when tapped with X
-  // or O respectively and then checking the winner function
+
   void boxPressed(int index) {
     setState(() {
       if (playerO && boxElements[index] == '') {
@@ -258,7 +257,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void checkBoxes() {
-    // Checking rows
+   
     if (boxElements[0] == boxElements[1] &&
         boxElements[0] == boxElements[2] &&
         boxElements[0] != '') {
@@ -275,7 +274,7 @@ class _HomeScreenState extends State<HomeScreen> {
       showWinDialog(boxElements[6]);
     }
 
-    // Checking Column
+
     if (boxElements[0] == boxElements[3] &&
         boxElements[0] == boxElements[6] &&
         boxElements[0] != '') {
@@ -292,7 +291,7 @@ class _HomeScreenState extends State<HomeScreen> {
       showWinDialog(boxElements[2]);
     }
 
-    // Checking Diagonal
+ 
     if (boxElements[0] == boxElements[4] &&
         boxElements[0] == boxElements[8] &&
         boxElements[0] != '') {
